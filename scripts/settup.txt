@@ -1,0 +1,42 @@
+qemu-img create -f raw emos-test.img 400G
+
+
+
+
+
+qemu-system-x86_64 \
+  -m 4096 \
+  -smp 2 \
+  -enable-kvm \
+  -cpu host \
+  -boot d \
+  -cdrom path/to/emos-YYYY.MM.DD-x86_64.iso \
+  -drive file=emos-test.img,format=raw,if=virtio \
+  -vga std \
+  -display gtk \
+  -serial stdio \
+  -netdev user,id=net0,hostfwd=tcp::60022-:22 \
+  -device virtio-net-pci,netdev=net0 \
+  -name "EMOS Test VM"
+
+
+
+
+
+  #to run without iso:
+qemu-system-x86_64 \
+  -m 4096 \
+  -smp 2 \
+  -enable-kvm \
+  -cpu host \
+  -drive if=pflash,format=raw,readonly=on,file=/usr/share/edk2/x64/OVMF_CODE.4m.fd \
+  -drive if=pflash,format=raw,file=ovmf_vars.fd \
+  -boot d \
+  -cdrom ../out/emos-2025.05.18-x86_64.iso \
+  -drive file=emos-test.img,format=raw,if=virtio \
+  -vga std \
+  -display gtk \
+  -serial stdio \
+  -netdev user,id=net0,hostfwd=tcp::60022-:22 \
+  -device virtio-net-pci,netdev=net0 \
+  -name "EMOS UEFI Boot"
