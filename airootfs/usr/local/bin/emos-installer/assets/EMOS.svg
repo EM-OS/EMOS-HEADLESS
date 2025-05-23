@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 513" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Artboard1" transform="matrix(1,0,0,1,-2094.45,-27.875)">
+        <rect x="2094.45" y="27.875" width="511.698" height="512.063" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="2094.45" y="27.875" width="511.698" height="512.063"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(0.373467,0,0,0.373467,2072.81,96.3626)">
+                <g transform="matrix(1,0,0,1,-118.888,-97.1802)">
+                    <path d="M524.297,443.741L655.143,443.741L747.119,604.969L839.095,443.741L970.025,443.741L970.025,822.464L848.292,822.464L848.292,623.364L763.891,769.443L730.347,769.443L645.946,623.364L645.946,822.464L524.213,822.464L524.213,553.76L316.5,639.206L172.42,288.96L414.59,189.339L453.286,283.405L323.695,336.715L339.749,375.742L453.329,329.019L486.673,410.076L373.093,456.799L390.383,498.829L524.297,443.741Z" style="fill:rgb(38,33,130);"/>
+                </g>
+                <g transform="matrix(4.35319,0,0,4.54644,-4627.4,-1793.28)">
+                    <g transform="matrix(100,0,0,100,1336.81,560.916)">
+                    </g>
+                    <text x="1258.01px" y="560.916px" style="font-family:'MADETOMMY-Black', 'MADE TOMMY';font-weight:900;font-size:100px;fill:rgb(38,33,130);">O</text>
+                </g>
+                <g transform="matrix(4.35319,0,0,4.54644,-4325.52,-1796.26)">
+                    <g transform="matrix(100,0,0,100,1318.21,560.916)">
+                    </g>
+                    <text x="1258.01px" y="560.916px" style="font-family:'MADETOMMY-Black', 'MADE TOMMY';font-weight:900;font-size:100px;fill:rgb(38,33,130);">S</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
